@@ -1,0 +1,12 @@
+#slideGrid .file-preview-image {
+    height: 250px;
+}
+
+.kv-fileinput-caption {
+    display: block !important;
+    width: 100% !important;
+}
+
+.input-group-append {
+    display: block !important;
+}

@@ -1,0 +1,222 @@
+
+footer{
+    float: left;
+    position: relative;
+    width: 100%;
+    padding: 52px 0px 98px 0px;
+    background-color: #2c2c2c;
+    color: #fff;
+}
+footer span.description{
+    color: #bfc2bf;
+    margin-top: 13px;
+    float: left;
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    line-height: 25px;
+}
+h3.footitle{
+    font-weight: 100;
+    font-style: normal;
+    text-align: left;
+
+    font-size: 23px;
+    color: #feffff;
+    margin-top: 0px;
+}
+.footop{
+    position: fixed;
+    right: 2%;
+    display: none;
+    bottom: 2%;
+}
+.wrapper{
+    max-width: 1170px;
+    margin:0 auto;
+}
+
+
+.logo-footer {
+    padding-top: 54px;
+}
+
+
+.h-footer {
+    font-family: HelveticaNeueCyrMedium;
+    font-size: 24px;
+    padding-top: 54px;
+
+}
+
+
+
+footer ul{
+    float: left;
+    position: relative;
+    width: 100%;
+    list-style: none;
+    display: inline;
+    margin-top: 22px;
+    padding: 0px;
+}
+footer ul li{
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-bottom: 2px;
+    margin-top: 4px;
+}
+footer ul > :first-child{
+    margin-top:0px;
+}
+footer ul > :last-child{
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
+footer ul.foomenu li a{
+    color: #bfc2bf;
+    text-decoration: none;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+footer ul.foomenu li a:hover{
+    color:#b98836;
+    text-decoration: none;
+}
+
+
+footer ul.foomenu li a:hover:before{
+    color:#fff;
+}
+footer ul.contacts > :first-child span, footer ul.contacts > :last-child > :last-child{
+    margin-bottom: 0px;
+}
+
+html[lang="kaz"] footer ul.contacts > :last-child{
+    font-size: 14px;
+}
+ul.contacts > :last-child > :first-child{
+    margin-top: 9px;
+}
+footer ul.contacts{
+    margin-top: 26px;
+}
+footer ul.contacts li span{
+    float: left;
+    position: relative;
+    width: 100%;
+    color:#bfc2bf;
+    margin-bottom: 11px;
+}
+footer ul.contacts li a{
+    color:#bfc2bf;
+    text-decoration: none;
+}
+footer ul.contacts li span img{
+    padding-right: 9px;
+}
+footer ul.contacts > :first-child{
+    padding-bottom: 23px;
+}
+
+/******************/
+#cbcPagination{
+    position: relative;
+    left: 50%;
+}
+#cbcPagination li.active a {
+    background-color: #2c2c2c;
+}
+#cbcPagination li a,
+#cbcPagination li span,
+#cbcPagination li {
+    border-radius: 0;
+
+}
+
+.field-email-email label {
+    display: none;
+}
+.field-email-email  {
+    float: left;
+    width: 167px;
+}
+.emailSubmit {
+    float: right;
+    width: 95px;
+    border-radius: 0;
+    background-color: #101010;
+}
+
+#email-email {
+    border-radius: 0;
+    background-color: #a2a2a2;
+    color: #000000;
+
+}
+
+.footerBottom p span {
+    padding-right: 100px;
+    position: relative;
+    top: -15px;
+}
+.footerBottom p {
+    color: #dad9d9;
+    width: 1070px;
+    margin: 0 auto;
+    margin-top: -8px;
+}
+.footerBottom {
+    height: 25px;
+    background-color: #272727;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+}
+@font-face{
+    font-family:"Font Awesome 5 Brands";
+    font-style:normal;
+    font-weight:normal;
+    src:url(../webfonts/fa-brands-400.eot);
+    src:url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(../webfonts/fa-brands-400.woff2)
+    format("woff2"),url(../webfonts/fa-brands-400.woff) format("woff"),url(../webfonts/fa-brands-400.ttf)
+}
+.fab{
+    font-family:"Font Awesome 5 Brands";
+    padding-right: 3px;
+    padding-left: 3px;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa-vk:before {
+    content: "\f189";
+}
+.fa-instagram:before {
+    content: "\f16d";
+}
+ ::before {
+    box-sizing: border-box;
+}
+
+
+ .socialIcon {
+     color: #ffffff;
+     display: inline;
+     position: relative;
+     top: -15px;
+    font-size: 18px;
+ }
+
+.socialIcon:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
